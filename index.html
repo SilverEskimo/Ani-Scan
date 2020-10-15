@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Ani-Scan</title>
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjZHrFdJwtrfZjG9NC-2_cY3pCJqzva3M&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="/js/common.js"></script>
+	<script src="/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+
+<link rel="icon" type="image/png" href="/favicon.ico"/>
+<link rel="icon" type="image/png" href="includes/php/upload_images/ani-scan-logo.PNG"/>
+
+</head>
+
+<body>
+    <div id="map"></div>
+	<div class="container-fluid content" dir="rtl">
+		<div class="logo-image"> 
+			<img src="includes/php/upload_images/ani-scan-logo.PNG">
+		</div>
+		<br>
+		<div class="row buttons">
+			<button id="log-out" type='button' class='pretty-button' onclick="location.href = '/includes/php/log-out.php';" style="color:white;"> התנתקות</button>
+			<button id="sign-up" type='button' class='pretty-button glyphicon glyphicon-user' onclick="location.href = '/includes/php/sign-up.php';" style="color:white;"> הרשם</button>
+			<button id="sign-in" type='button' class='pretty-button glyphicon glyphicon-log-in' onclick="location.href = '/includes/php/sign-in.php';" style="color:white;"> התחבר</button>
+			<div style="padding: 5px;font-weight: bolder; font-size: medium; color: #114d61;" id="firstName"></div>
+		</div>
+		<br>
+
+		<div class="row buttons">
+			<button id="lost" type='button' class='btn btn-default' onclick="location.href = '/includes/php/lost_animal_form.php';">אבד לי</button>
+			<button id="found" type='button' class='btn btn-default' onclick="location.href = '/includes/php/find_animal_form.php';">מצאתי</button>
+		</div>
+	</div>
+	<div id="footer-nav"></div>
+</body>
+
+</html>

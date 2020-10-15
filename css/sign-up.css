@@ -1,0 +1,44 @@
+
+form {
+    display: inline-table;
+}
+
+.page-content {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.pretty-button{
+	display:block;
+	margin:auto;
+	padding: 5px 70px 5px 70px;
+	margin:50px, 0px, 0px, 20px;
+	border:0.16em solid rgba(255,255,255,0);
+	border-radius:20em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+	transition: all 0.2s;
+ 	 background-color: rgb(2, 125, 180);
+
+}
+.pretty-button:hover{
+	border-color:black;
+}
+
+HTML SCSS JSResult
+EDIT ON

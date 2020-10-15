@@ -1,0 +1,111 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+      }
+	  
+	  .pretty-button{
+			display:block;
+			padding: 5px 10px 5px 10px;
+			border:0.16em solid rgba(255,255,255,0);
+			border-radius:20em;
+			box-sizing: border-box;
+			text-decoration:none;
+			font-family:'Roboto',sans-serif;
+			font-weight:300;
+			color:#FFFFFF;
+			text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+			text-align:center;
+			transition: all 0.2s;
+			 background-color: rgb(2, 125, 180);
+
+		}
+		.pretty-button:hover{
+			border-color:black;
+		}
+	  
+	  .logo-image img{	
+		  display: block;
+		  margin: auto;
+		  height: 112px;
+		  width: 160px;
+		  max-width: 350px;
+
+	  }
+	  
+	  .row {
+		display: flex;
+		justify-content: center;
+	  }
+	  
+	  #log-out {
+		  display: none;
+		  height: 30px;
+	  }
+	  
+	  #sign-in, #sign-up {
+		display: none;
+		height: 50px;
+	  }  
+	  
+	  #found, #lost {
+		  display: none;
+		  height: 65px;
+		  width: 170px;
+		  border-radius: 25px;
+	  }
+	  
+	  #found {
+		  background-color: rgb(2, 125, 180);
+		 color: white;
+	  }
+	
+	  
+	  .content {
+		  height: 50%;
+		  color:white;
+
+
+	  }
+	  
+	  @media only screen and (max-height: 1000px) {
+		  #map {
+			height: 50%;
+		  }
+		}
+
+
+		@media only screen and (max-height: 815px) {
+		  #map {
+			height: 50%;
+		  }
+		}
+
+		@media only screen and (max-height: 770px) {
+		  #map {
+			height: 50%;
+		  }
+		}
+
+		@media only screen and (max-height: 732px) {
+		  #map {
+			height: 50%;
+		  }
+		}
+
+		@media only screen and (max-height: 670px) {
+		  #map {
+			height: 45%;
+		  }
+		}
+		@media only screen and (max-height: 570px) {
+		  #map {
+			max-height: 40%;
+		  }
+		}

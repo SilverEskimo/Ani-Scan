@@ -1,0 +1,21 @@
+.pretty-button{
+	display:block;
+	margin:auto;
+	padding: 5px 70px 5px 70px;
+	margin:50px, 0px, 0px, 20px;
+	border:0.16em solid rgba(255,255,255,0);
+	border-radius:20em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+	transition: all 0.2s;
+ 	 background-color: rgb(2, 125, 180);
+
+}
+.pretty-button:hover{
+	border-color:black;
+}

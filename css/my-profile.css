@@ -1,0 +1,130 @@
+
+.profile-buttons {
+	display: flex;
+	flex-direction: column;	
+	margin-top: 20px;
+}
+
+.pretty-button{
+	display:block;
+	margin:auto;
+	padding: 5px 70px 5px 70px;
+	margin:50px, 0px, 0px, 20px;
+	border:0.16em solid rgba(255,255,255,0);
+	border-radius:20em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+	transition: all 0.2s;
+ 	 background-color: rgb(2, 125, 180);
+
+}
+.pretty-button:hover{
+	border-color:black;
+}
+
+
+.animal-post{
+	width: 340px;
+	text-align: right;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 5px;
+	margin: auto auto 10px auto;
+  	color: black;
+  	border: 1px solid currentcolor;
+  	border-color: #808080;
+
+}
+
+.delete-animal-post {
+	margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.delete-animal-post:hover {
+  color: black;
+}
+
+.notification {
+	background-color: #F5F5F5;
+	color: black;
+	padding: 20px;
+    opacity: 0.83;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.delete-notification {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.delete-notification:hover {
+  color: black;
+}
+
+.post-status {
+	width: 100px;
+}
+
+@media only screen and (max-height: 1000px) {
+  #my-reports, #my-notifications, #my-details {
+	max-height: 400px;
+  }
+}
+
+
+@media only screen and (max-height: 815px) {
+  #my-reports, #my-notifications, #my-details {
+	max-height: 370px;
+  }
+}
+
+@media only screen and (max-height: 770px) {
+  #my-reports, #my-notifications, #my-details {
+	max-height: 320px;
+  }
+}
+
+@media only screen and (max-height: 732px) {
+  #my-reports, #my-notifications, #my-details {
+	max-height: 300px;
+  }
+}
+
+@media only screen and (max-height: 670px) {
+  #my-reports, #my-notifications, #my-details {
+	max-height: 250px;
+  }
+}
+@media only screen and (max-height: 570px) {
+  #my-reports, #my-notifications, #my-details {
+	max-height: 150px;
+  }
+}
+
+#my-reports, #my-notifications, #my-details {
+	display: none;
+	overflow-y: auto;
+	margin-top: 5px;
+	
+}

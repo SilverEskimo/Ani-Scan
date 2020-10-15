@@ -1,0 +1,100 @@
+
+.pretty-button{
+  display:block;
+  margin:auto;
+  padding: 5px 70px 5px 70px;
+  margin:50px, 0px, 0px, 20px;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:20em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+  background-color: rgb(2, 125, 180);
+
+}
+.pretty-button:hover{
+  border-color:black;
+}
+
+
+.animal-post {
+  width: 370px;
+  background-color: #F5F5F5;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto auto 10px auto;
+  color: black;
+  border: 1px solid currentcolor;
+  border-color: #808080;
+  height: 100%;
+
+}
+
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+div.container {
+  text-align: center;
+  padding: 10px 0px;  
+}
+
+.board-page-content {
+
+  text-align: center;
+  overflow-y: scroll;
+  max-height: calc(100vh - 320px);
+  flex-direction:auto;
+ 
+}
+
+@media only screen and (max-height: 1000px) {
+  #my-reports, #my-notifications, #my-details {
+  max-height: 400px;
+  }
+}
+
+@media only screen and (max-height: 815px) {
+  .board-page-content {
+  max-height: 580px;
+  }
+}
+
+@media only screen and (max-height: 770px) {
+  .board-page-content{
+  max-height: 500px;
+  }
+}
+
+@media only screen and (max-height: 732px) {
+  .board-page-content {
+  max-height: 500px;
+  }
+}
+
+@media only screen and (max-height: 670px) {
+  .board-page-content {
+  max-height: 410px;
+  }
+}
+@media only screen and (max-height: 570px) {
+  .board-page-content {
+  max-height: 340px;
+  }
+}
+@media only screen and (max-height: 550px) {
+  .board-page-content {
+  max-height: 120px;
+  }
+}
